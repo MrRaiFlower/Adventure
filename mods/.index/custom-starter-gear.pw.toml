@@ -1,0 +1,17 @@
+filename = 'CustomStartingGear-1.12-1.2.0.9-universal.jar'
+name = 'Custom Starter Gear'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CustomStartingGear-1.12-1.2.0.9-universal.jar'
+
+[download]
+hash = 'fd26c9e1d590f4427174a5f62266e7eba1e5a49a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2514705
+project-id = 253735

@@ -1,0 +1,10 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "3195eedc",
+		type: "checkmark",
+		title: "Thaumcraft",
+		icon: "thaumcraft:crucible"
+	}]
+}

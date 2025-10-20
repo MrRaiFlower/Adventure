@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "e4f30aa7",
+		type: "checkmark",
+		title: "Actually Additions",
+		icon: "actuallyadditions:block_atomic_reconstructor"
+	}]
+}

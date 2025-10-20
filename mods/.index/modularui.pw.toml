@@ -1,0 +1,17 @@
+filename = 'modularui-2.5.1.jar'
+name = 'ModularUI'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ModularUI − 2.5.1'
+
+[download]
+hash = 'e53637b9959e434d43b6bd9f59a07f1c58e57157'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7065084
+project-id = 624243

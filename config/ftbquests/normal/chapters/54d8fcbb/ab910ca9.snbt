@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "4bd090dd",
+		type: "checkmark",
+		title: "The Twilight Forest",
+		icon: "twilightforest:magic_map_focus"
+	}]
+}

@@ -1,0 +1,17 @@
+filename = 'CustomBackgrounds-MC1.12-1.1.1.jar'
+name = 'Custom Backgrounds'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CustomBackgrounds-MC1.12-1.1.1.jar'
+
+[download]
+hash = '930bb07c5f3d11364f7f5f16561c72da10a6a01d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2445809
+project-id = 225928

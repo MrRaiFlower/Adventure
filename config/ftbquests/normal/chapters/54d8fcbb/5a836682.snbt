@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "6150ae3c",
+		type: "checkmark",
+		title: "Immersive Engineering",
+		icon: "immersiveengineering:tool"
+	}]
+}

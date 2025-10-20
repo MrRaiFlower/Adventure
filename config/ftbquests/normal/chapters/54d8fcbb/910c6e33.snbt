@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "3e36349e",
+		type: "checkmark",
+		title: "Draconic Evolution",
+		icon: "draconicevolution:draconic_core"
+	}]
+}

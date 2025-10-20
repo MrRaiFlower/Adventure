@@ -1,0 +1,5 @@
+{
+  "inventory": {
+    "0:0": "akashictome:tome,1,0,{\"akashictome:data\":{actuallyadditions:{id:\"actuallyadditions:item_booklet\",Count:1,Damage:0s,tag:{\"akashictome:definedMod\":\"actuallyadditions\"}},astralsorcery:{id:\"astralsorcery:itemjournal\",Count:1,Damage:0s,tag:{\"akashictome:definedMod\":\"astralsorcery\"}},botania:{id:\"botania:lexicon\",Count:1,Damage:0s,tag:{\"akashictome:definedMod\":\"botania\"}},tconstruct:{id:\"tconstruct:book\",Count:1,Damage:0s,tag:{\"akashictome:definedMod\":\"tconstruct\"}}}}"
+  }
+}

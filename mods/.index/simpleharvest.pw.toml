@@ -1,0 +1,17 @@
+filename = 'Harvest-1.12-1.2.8-25.jar'
+name = 'SimpleHarvest'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Harvest-1.12-1.2.8-25.jar'
+
+[download]
+hash = 'b1549cc139a1cd74f2f13e03831a7d0319914fe3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2897811
+project-id = 240783

@@ -1,0 +1,17 @@
+filename = 'Mekanism-Community-Edition-1.12.2-9.12.12-Core.jar'
+name = 'Mekanism Community Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Mekanism CE 9.12.12 CORE'
+
+[download]
+hash = 'b3d6a93472ac57505c34183619967a4ac2af0ef6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7054604
+project-id = 399904

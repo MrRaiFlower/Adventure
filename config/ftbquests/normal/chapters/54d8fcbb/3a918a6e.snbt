@@ -1,0 +1,11 @@
+{
+	icon: "mekanism:machineblock 1 8",
+	x: 1.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "010cc69b",
+		type: "checkmark",
+		title: "Mekanism",
+		icon: "mekanism:basicblock 1 8"
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "06132648",
+		type: "checkmark",
+		title: "Ender IO",
+		icon: "enderio:block_alloy_smelter"
+	}]
+}

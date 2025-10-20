@@ -1,0 +1,17 @@
+filename = 'FTBMoney-1.2.0.47.jar'
+name = 'FTB Money (Forge)'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FTBMoney-1.2.0.47.jar'
+
+[download]
+hash = 'c17358f68780f341cb173c6139a53b7e220efa88'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3010526
+project-id = 306283

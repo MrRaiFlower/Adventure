@@ -1,0 +1,17 @@
+filename = 'loliasm-5.29.jar'
+name = 'CensoredASM'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'censoredasm5.29.jar'
+
+[download]
+hash = 'd7a189360c484e0bd1ee5cdf1dc6a5db23cb81e1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6854259
+project-id = 460609

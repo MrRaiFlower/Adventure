@@ -1,0 +1,17 @@
+filename = 'phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar'
+name = '燐/Hesperus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar'
+
+[download]
+hash = 'ddeddd44e33fd636a6a36fbac001bbc91c518f19'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4724647
+project-id = 620262

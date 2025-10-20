@@ -1,0 +1,17 @@
+filename = 'WailaHarvestability-mc1.12-1.1.12.jar'
+name = 'Waila Harvestability'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'WailaHarvestability-mc1.12-1.1.12.jar'
+
+[download]
+hash = '7e1abc8dd61390285167284a5eb3bf0e57a52760'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2481605
+project-id = 79287

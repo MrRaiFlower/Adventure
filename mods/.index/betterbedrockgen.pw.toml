@@ -1,0 +1,17 @@
+filename = 'BetterBedrockGenerator-1.12-6.1.1.jar'
+name = 'BetterBedrockGen'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterBedrockGenerator-1.12-6.1.1.jar'
+
+[download]
+hash = 'f2a203a50630835f4944c37b4821a5dc9be63b39'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2458763
+project-id = 223275

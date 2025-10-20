@@ -1,0 +1,17 @@
+filename = 'tombmanypluginscosmeticarmorreworked-1.0.0.jar'
+name = 'TombManyPlugins - Cosmetic Armor Reworked'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'TombManyPlugins: Cosmetic Armor Reworked'
+
+[download]
+hash = '28b3dbf69d108ec1bef6e28d18f15b5a4407b731'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2563120
+project-id = 294214

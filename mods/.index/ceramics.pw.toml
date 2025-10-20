@@ -1,0 +1,17 @@
+filename = 'Ceramics-1.12-1.3.7b.jar'
+name = 'Ceramics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ceramics 1.3.7b for 1.12.2'
+
+[download]
+hash = 'dd7b5ff40ce6d1ce82ea2b1fab3d8f202adae9b6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3158763
+project-id = 250617

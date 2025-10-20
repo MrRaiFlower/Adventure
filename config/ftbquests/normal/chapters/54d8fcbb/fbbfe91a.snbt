@@ -1,0 +1,10 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "0a9154a0",
+		type: "checkmark",
+		title: "Botania",
+		icon: "botania:altar"
+	}]
+}

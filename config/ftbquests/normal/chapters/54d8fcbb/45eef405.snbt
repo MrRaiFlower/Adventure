@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "7806789c",
+		type: "checkmark",
+		title: "Applied Energistics 2",
+		icon: "appliedenergistics2:drive"
+	}]
+}

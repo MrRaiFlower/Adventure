@@ -1,0 +1,17 @@
+filename = 'jmws-1.1.4-1.12.2.jar'
+name = 'JourneyMap Waypoint Syncing (JMWS)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jmws-1.1.4-1.12.2.jar'
+
+[download]
+hash = 'e8afef79679270fa590ee942d0b473f17ea0ff34'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6892922
+project-id = 1263493

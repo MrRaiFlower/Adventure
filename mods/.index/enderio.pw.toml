@@ -1,0 +1,17 @@
+filename = 'EnderIO-1.12.2-5.3.72.jar'
+name = 'Ender IO'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.3.72'
+
+[download]
+hash = 'caa62df252ff90e372ede6b8d6fd0f66973ade7ee2701e4a81836db9b231e5d39fb9468d0a502317b08f249ef577cc636ca0952812efe500b022ea4719385771'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/49ZofO4f/versions/ozde4Meh/EnderIO-1.12.2-5.3.72.jar'
+
+[update.modrinth]
+mod-id = '49ZofO4f'
+version = 'ozde4Meh'
