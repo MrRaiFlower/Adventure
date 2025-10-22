@@ -1,0 +1,10 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "d2441a48",
+		type: "checkmark",
+		title: "Thermal Expansion",
+		icon: "thermalexpansion:frame"
+	}]
+}

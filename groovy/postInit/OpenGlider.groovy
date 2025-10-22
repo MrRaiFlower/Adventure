@@ -4,15 +4,15 @@ crafting.removeByOutput(item('openglider:hang_glider_part'))
 crafting.removeByOutput(item('openglider:hang_glider_part', 1))
 
 crafting.addShaped(item('openglider:hang_glider_part'), [
-    [null, ore('stickIron'), item('adventure:leather_tanned')],
-    [ore('stickIron'), item('adventure:leather_tanned'), item('adventure:leather_tanned')],
-    [item('adventure:leather_tanned'), item('adventure:leather_tanned'), item('adventure:leather_tanned')]
+    [null, ore('stickIron'), ore('leather')],
+    [ore('stickIron'), ore('leather'), item('adventure:leather_tanned')],
+    [ore('leather'), item('adventure:leather_tanned'), ore('ingotIron')]
 ])
 
 crafting.addShaped(item('openglider:hang_glider_part', 1), [
-    [item('adventure:leather_tanned'), ore('stickIron'), null],
-    [item('adventure:leather_tanned'), item('adventure:leather_tanned'), ore('stickIron')],
-    [item('adventure:leather_tanned'), item('adventure:leather_tanned'), item('adventure:leather_tanned')]
+    [ore('leather'), ore('stickIron'), null],
+    [item('adventure:leather_tanned'), ore('leather'), ore('stickIron')],
+    [ore('ingotIron'), item('adventure:leather_tanned'), ore('leather')]
 ])
 
 // Scaffolding
@@ -29,8 +29,3 @@ crafting.addShaped(item('openglider:hang_glider_part', 2), [
 
 crafting.removeByOutput(item('openglider:hang_glider_advanced'))
 
-crafting.addShaped(item('openglider:hang_glider_advanced'), [
-    [null, ore('ingotSteel'), null],
-    [ore('stickSteel'), item('openglider:hang_glider_basic'), ore('stickSteel')],
-    [ore('ingotSteel'), ore('stickSteel'), ore('ingotSteel')]
-])
