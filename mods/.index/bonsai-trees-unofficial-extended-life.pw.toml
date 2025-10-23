@@ -1,0 +1,17 @@
+filename = 'Bonsaitrees-1.1.5.jar'
+name = 'Bonsai Trees Unofficial Extended Life'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Bonsai Trees 1.1.5'
+
+[download]
+hash = 'c050cc5aadb3b67c97bd3a86b30b266dc28754d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6493998
+project-id = 1258294

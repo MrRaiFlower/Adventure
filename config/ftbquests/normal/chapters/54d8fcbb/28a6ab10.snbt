@@ -1,0 +1,10 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "d63b98d7",
+		type: "checkmark",
+		title: "Astral Sorcery",
+		icon: "astralsorcery:blockaltar"
+	}]
+}
