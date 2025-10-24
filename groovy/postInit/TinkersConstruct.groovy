@@ -130,6 +130,6 @@ crafting.removeByOutput(item('tconstruct:toolforge'))
 
 crafting.addShaped(item('tconstruct:toolforge').withNbt(['textureBlock': ['id': 'minecraft:iron_block', 'Count': 1, 'Damage': (short) 0]]), [
     [ore('blockSeared'), ore('blockSeared'), ore('blockSeared')],
-    [item('twilightforest:naga_scale'), item('bloodmagic:lava_crystal'), item('twilightforest:naga_scale')],
+    [item('twilightforest:naga_scale'), ore('blockDiamond'), item('twilightforest:naga_scale')],
     [ore('blockIron'), item('tconstruct:tooltables', 3), ore('blockIron')]
 ])
