@@ -67,7 +67,7 @@ crafting.removeByOutput(item('tconstruct:casting'))
 
 crafting.addShaped(item('tconstruct:casting'), [
     [ore('blockSeared'), ore('ingotBrickSeared'), ore('blockSeared')],
-    [ore('ingotBrickSeared'), null, ore('ingotBrickSeared')],
+    [ore('ingotBrickSeared'), ore('plateIron'), ore('ingotBrickSeared')],
     [ore('blockSeared'), null, ore('blockSeared')]
 ])
 
@@ -77,7 +77,7 @@ crafting.removeByOutput(item('tconstruct:casting', 1))
 
 crafting.addShaped(item('tconstruct:casting', 1), [
     [ore('blockSeared'), null, ore('blockSeared')],
-    [ore('ingotBrickSeared'), null, ore('ingotBrickSeared')],
+    [ore('ingotBrickSeared'), item('minecraft:cauldron'), ore('ingotBrickSeared')],
     [ore('blockSeared'), ore('ingotBrickSeared'), ore('blockSeared')]
 ])
 
@@ -126,10 +126,8 @@ crafting.addShaped(item('tconstruct:tinker_tank_controller'), [
 
 crafting.removeByOutput(item('tconstruct:toolforge'))
 
-
-
 crafting.addShaped(item('tconstruct:toolforge').withNbt(['textureBlock': ['id': 'minecraft:iron_block', 'Count': 1, 'Damage': (short) 0]]), [
     [ore('blockSeared'), ore('blockSeared'), ore('blockSeared')],
-    [item('twilightforest:naga_scale'), ore('blockDiamond'), item('twilightforest:naga_scale')],
-    [ore('blockIron'), item('tconstruct:tooltables', 3), ore('blockIron')]
+    [ore('ingotFiery'), item('tconstruct:tooltables', 3), ore('ingotFiery')],
+    [ore('blockIron'), null, ore('blockIron')]
 ])

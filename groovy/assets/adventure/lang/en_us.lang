@@ -4,3 +4,11 @@ item.adventure.twilight_gem.name=Twilight Gem
 
 item.adventure.leather_bound.name=Bound Leather
 item.adventure.leather_tanned.name=Tanned Leather
+
+# Tooltips
+
+item.thaumcraft.salis_mundus.tooltip=§cR§6e§ec§ai§3p§9e §cW§6a§es §3C§9h§5a§cn§6g§ee§ad§3!
+
+# JEI Descriptions
+
+item.thaumcraft.salis_mundus.description=Recipe for crafting Salis Mundus was changed - don't trust your dreams!

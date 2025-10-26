@@ -37,3 +37,21 @@ crafting.addShaped(item('thermalfoundation:material', 515), [
     [ore('dustRedstone'), ore('stickIron'), ore('dustRedstone')],
     [ore('ingotElectrum'), ore('dustRedstone'), null]
 ])
+
+// Satchel
+
+crafting.remove("thermalexpansion:satchel")
+
+crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte) 1]), [
+    [null, item('adventure:leather_tanned'), null],
+    [ore('ingotTin'), ore('blockWool'), ore('ingotTin')],
+    [item('adventure:leather_tanned'), null, item('adventure:leather_tanned')]
+])
+
+crafting.remove("thermalexpansion:satchel_1")
+
+crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte) 1]), [
+    [null, ore('blockRockwool'), null],
+    [ore('ingotTin'), ore('blockWool'), ore('ingotTin')],
+    [ore('blockRockwool'), null, ore('blockRockwool')]
+])

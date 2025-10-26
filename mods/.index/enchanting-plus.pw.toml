@@ -1,0 +1,17 @@
+filename = 'EnchantingPlus-1.12.2-5.0.179.jar'
+name = 'Enchanting Plus'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'EnchantingPlus-1.12.2-5.0.179.jar'
+
+[download]
+hash = '075bd2585f73a83b9105d3e35ae2071c29f0c7c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2724705
+project-id = 59413
