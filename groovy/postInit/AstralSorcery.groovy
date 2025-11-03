@@ -37,7 +37,23 @@ crafting.add(new ShapedLightProximityRecipe(resource('adventure:luminous_craftin
     put(ShapedRecipeSlot.CENTER, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(ore('workbench')))
     put(ShapedRecipeSlot.RIGHT, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(ore('plankTreatedWood')))
     put(ShapedRecipeSlot.LOWER_LEFT, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(ore('plankTreatedWood')))
-    put(ShapedRecipeSlot.LOWER_CENTER, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(item('botania:storage')))
+    put(ShapedRecipeSlot.LOWER_CENTER, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(item('botania:storage', 3)))
     put(ShapedRecipeSlot.LOWER_RIGHT, com.cleanroommc.groovyscript.compat.mods.astralsorcery.AstralSorcery.toItemHandle(ore('plankTreatedWood')))
     bake()
 })))
+
+// Glass Lens
+
+mods.astralsorcery.starlight_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 3))
+
+mods.astralsorcery.starlight_altar.discoveryRecipeBuilder()
+    .output(item('astralsorcery:itemcraftingcomponent', 3))
+    .row('ABA')
+    .row('BCB')
+    .row('ABA')
+    .key('A', ore('powderMana'))
+    .key('B', item('botania:managlass'))
+    .key('C', ore('gemAquamarine'))
+    .starlight(100)
+    .craftTime(10)
+    .register()

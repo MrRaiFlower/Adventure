@@ -1,0 +1,17 @@
+filename = 'MCTImmersiveTechnology-1.12.2-1.9.102.jar'
+name = 'Immersive Technology'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MCTImmersiveTechnology-1.12.2-1.9.102.jar'
+
+[download]
+hash = '7dd15d79b2b1584340d16f4e38efcc23078a0c7b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5108047
+project-id = 359407

@@ -1,0 +1,17 @@
+filename = 'chatcalculator-1.0.1.jar'
+name = 'Chat Calculator'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'chatcalculator-1.0.1.jar'
+
+[download]
+hash = '677764ebac4ed398504ce71c2938d2987c5a15fe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3809772
+project-id = 625036
