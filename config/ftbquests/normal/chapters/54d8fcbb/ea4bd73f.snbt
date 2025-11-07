@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"842a4173"
+	],
+	tasks: [{
+		uid: "77c8b2ca",
+		type: "checkmark",
+		title: "Immersive Engineering",
+		icon: "immersiveengineering:metal_decoration0 1 3"
+	}]
+}

@@ -29,3 +29,8 @@ crafting.addShaped(item('openglider:hang_glider_part', 2), [
 
 crafting.removeByOutput(item('openglider:hang_glider_advanced'))
 
+crafting.addShaped(item('openglider:hang_glider_advanced'), [
+    [null, ore('ingotSteel'), null],
+    [ore('stickSteel'), item('openglider:hang_glider_basic'), ore('stickSteel')],
+    [ore('ingotSteel'), ore('stickSteel'), ore('ingotSteel')]
+])

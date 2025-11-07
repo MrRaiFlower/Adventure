@@ -128,6 +128,6 @@ crafting.removeByOutput(item('tconstruct:toolforge'))
 
 crafting.addShaped(item('tconstruct:toolforge').withNbt(['textureBlock': ['id': 'minecraft:iron_block', 'Count': 1, 'Damage': (short) 0]]), [
     [ore('blockSeared'), ore('blockSeared'), ore('blockSeared')],
-    [ore('ingotFiery'), item('tconstruct:tooltables', 3), ore('ingotFiery')],
-    [ore('blockIron'), null, ore('blockIron')]
+    [ore('slimecrystalGreen'), ore('slimecrystalBlue'), ore('slimecrystalMagma')],
+    [ore('blockIron'), item('tconstruct:tooltables', 3), ore('blockIron')]
 ])

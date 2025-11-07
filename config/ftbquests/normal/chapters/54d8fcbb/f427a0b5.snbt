@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"ea4bd73f"
+	],
+	tasks: [{
+		uid: "dd022047",
+		type: "checkmark",
+		title: "Blood Magic",
+		icon: "bloodmagic:altar"
+	}]
+}

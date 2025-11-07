@@ -1,19 +1,12 @@
 // Salis Mundus
 
-mods.astralsorcery.starlight_altar.discoveryRecipeBuilder()
-    .output(item('thaumcraft:salis_mundus') * 3)
-    .row('ABA')
-    .row('CDE')
-    .row('AFA')
-    .key('A', item('thaumcraft:crystal_essence'))
-    .key('B', ore('dustAstralStarmetal'))
-    .key('C', item('mekanism:otherdust'))
-    .key('D', ore('pestleAndMortar'))
-    .key('E', ore('elvenPixieDust'))
-    .key('F', ore('dustRedstone'))
-    .starlight(500)
-    .craftTime(10)
-    .register()
+crafting.removeByOutput(item('thaumcraft:salis_mundus'))
+
+crafting.addShaped(item('thaumcraft:salis_mundus') * 3, [
+    [ item('thaumcraft:crystal_essence'), ore('elvenPixieDust'),  item('thaumcraft:crystal_essence')],
+    [ore('dustAstralStarmetal'), ore('pestleAndMortar'), ore('dustAstralStarmetal')],
+    [ item('thaumcraft:crystal_essence'), ore('elvenPixieDust'),  item('thaumcraft:crystal_essence')]
+])
 
 // Arcane Stone
 
