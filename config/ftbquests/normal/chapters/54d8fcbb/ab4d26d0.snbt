@@ -1,0 +1,10 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "3bdcfd18",
+		type: "checkmark",
+		title: "Applied Energistics 2",
+		icon: "appliedenergistics2:part 1 360"
+	}]
+}

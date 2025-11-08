@@ -1,0 +1,10 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6cdcadc9",
+		type: "checkmark",
+		title: "Tinker's Construct",
+		icon: "tconstruct:smeltery_controller"
+	}]
+}

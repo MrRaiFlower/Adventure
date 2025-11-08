@@ -2,10 +2,10 @@
 
 crafting.removeByOutput(item('bloodmagic:soul_snare'))
 
-crafting.addShaped(item('bloodmagic:soul_snare') * 16, [
-    [ore('ingotSteel'), ore('string'), ore('gemDiamond')],
-    [ore('string'), ore('dustRedstone'), ore('string')],
-    [ore('gemDiamond'), ore('string'), ore('ingotSteel')]
+crafting.addShaped(item('bloodmagic:soul_snare') * 8, [
+    [null, ore('manaString'), ore('ingotManasteel')],
+    [ore('manaString'), ore('manaDiamond'), ore('manaString')],
+    [ore('ingotManasteel'), ore('manaString'), null]
 ])
 
 // Sacrificial Dagger
@@ -13,9 +13,9 @@ crafting.addShaped(item('bloodmagic:soul_snare') * 16, [
 crafting.removeByOutput(item('bloodmagic:sacrificial_dagger'))
 
 crafting.addShaped(item('bloodmagic:sacrificial_dagger'), [
-    [item('tconstruct:clear_glass'), item('tconstruct:clear_glass'), ore('ingotElectrum')],
-    [null, ore('ingotDraconium'), item('tconstruct:clear_glass')],
-    [ore('ingotCobalt'), null, item('tconstruct:clear_glass')]
+    [item('botania:managlass'), item('botania:managlass'), item('botania:managlass')],
+    [null, ore('ingotGold'), item('botania:managlass')],
+    [ore('ingotManasteel'), null, item('botania:managlass')]
 ])
 
 // Blood Altar
@@ -38,22 +38,22 @@ crafting.addShaped(item('bloodmagic:soul_forge'), [
     [item('appliedenergistics2:sky_stone_brick'), ore('blockSteel'), item('appliedenergistics2:sky_stone_brick')]
 ])
 
-// Incense Altar
+// // Incense Altar
 
-crafting.removeByOutput(item('bloodmagic:incense_altar'))
+// crafting.removeByOutput(item('bloodmagic:incense_altar'))
 
-crafting.addShaped(item('bloodmagic:incense_altar'), [
-    [ore('plateElectrum'), null, ore('plateElectrum')],
-    [ore('plateElectrum'), ore('coal'), ore('plateElectrum')],
-    [item('appliedenergistics2:sky_stone_brick'), new com.cleanroommc.groovyscript.helper.ingredient.ItemsIngredient(WayofTime.bloodmagic.core.registry.OrbRegistry.getOrbsDownToTier(1)), item('appliedenergistics2:sky_stone_brick')]
-])
+// crafting.addShaped(item('bloodmagic:incense_altar'), [
+//     [ore('plateElectrum'), null, ore('plateElectrum')],
+//     [ore('plateElectrum'), ore('coal'), ore('plateElectrum')],
+//     [item('appliedenergistics2:sky_stone_brick'), new com.cleanroommc.groovyscript.helper.ingredient.ItemsIngredient(WayofTime.bloodmagic.core.registry.OrbRegistry.getOrbsDownToTier(1)), item('appliedenergistics2:sky_stone_brick')]
+// ])
 
-// Alchemy Table
+// // Alchemy Table
 
-crafting.removeByOutput(item('bloodmagic:alchemy_table'))
+// crafting.removeByOutput(item('bloodmagic:alchemy_table'))
 
-crafting.addShaped(item('bloodmagic:alchemy_table'), [
-    [ore('ingotGold'), item('minecraft:carpet', 14), ore('ingotGold')],
-    [item('appliedenergistics2:sky_stone_brick'), ore('blockBlaze'), item('appliedenergistics2:sky_stone_brick')],
-    [item('appliedenergistics2:sky_stone_brick'), new com.cleanroommc.groovyscript.helper.ingredient.ItemsIngredient(WayofTime.bloodmagic.core.registry.OrbRegistry.getOrbsDownToTier(1)), item('appliedenergistics2:sky_stone_brick')]
-])
+// crafting.addShaped(item('bloodmagic:alchemy_table'), [
+//     [ore('ingotGold'), item('minecraft:carpet', 14), ore('ingotGold')],
+//     [item('appliedenergistics2:sky_stone_brick'), ore('blockBlaze'), item('appliedenergistics2:sky_stone_brick')],
+//     [item('appliedenergistics2:sky_stone_brick'), new com.cleanroommc.groovyscript.helper.ingredient.ItemsIngredient(WayofTime.bloodmagic.core.registry.OrbRegistry.getOrbsDownToTier(1)), item('appliedenergistics2:sky_stone_brick')]
+// ])

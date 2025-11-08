@@ -55,3 +55,29 @@ crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte
     [ore('ingotTin'), ore('blockWool'), ore('ingotTin')],
     [ore('blockRockwool'), null, ore('blockRockwool')]
 ])
+
+// Frames
+
+crafting.removeByOutput(item('thermalexpansion:frame'))
+
+crafting.addShaped(item('thermalexpansion:frame'), [
+    [ore('plateSteel'), ore('gearTin'), ore('plateSteel')],
+    [item('bloodmagic:slate'), ore('manaDiamond'), item('bloodmagic:slate')],
+    [ore('plateSteel'), ore('gearTin'), ore('plateSteel')]
+])
+
+crafting.removeByOutput(item('thermalexpansion:frame', 64))
+
+crafting.addShaped(item('thermalexpansion:frame', 64), [
+    [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')],
+    [item('bloodmagic:slate'), ore('gearSteel'), item('bloodmagic:slate')],
+    [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')]
+])
+
+crafting.removeByOutput(item('thermalexpansion:frame', 128))
+
+crafting.addShaped(item('thermalexpansion:frame', 128), [
+    [ore('plateLead'), ore('ingotManasteel'), ore('plateLead')],
+    [item('bloodmagic:slate'), ore('gearElectrum'), item('bloodmagic:slate')],
+    [ore('plateLead'), ore('ingotManasteel'), ore('plateLead')]
+])

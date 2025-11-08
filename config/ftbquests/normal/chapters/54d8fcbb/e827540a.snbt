@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"3b39700d",
+		"a5e7f77f"
+	],
+	tasks: [{
+		uid: "e9ecee72",
+		type: "checkmark",
+		title: "Mekanism",
+		icon: "mekanism:machineblock 1 8"
+	}]
+}

@@ -21,8 +21,6 @@ mods.astralsorcery.starlight_altar.discoveryRecipeBuilder()
     .row('AAA')
     .key('A', ore('stoneMarble'))
     .key('B', ore('dustHOPGraphite'))
-    .starlight(100)
-    .craftTime(20)
     .register()
 
 // Luminous Crafting Table
@@ -56,4 +54,24 @@ mods.astralsorcery.starlight_altar.discoveryRecipeBuilder()
     .key('C', ore('gemAquamarine'))
     .starlight(200)
     .craftTime(20)
+    .register()
+
+// Infused Glass
+
+mods.astralsorcery.starlight_altar.removeByOutput(item('astralsorcery:iteminfusedglass'))
+
+mods.astralsorcery.starlight_altar.constellationRecipeBuilder()
+    .output(item('astralsorcery:iteminfusedglass'))
+    .matrix('AB BA',
+            'BCDCB',
+            ' DED ',
+            'BCDCB',
+            'AB BA')
+    .key('A', item('astralsorcery:itemcraftingcomponent', 4))
+    .key('B', ore('dustAstralStarmetal'))
+    .key('C', item('botania:managlass'))
+    .key('D', item('astralsorcery:itemusabledust'))
+    .key('E', ore('manaDiamond'))
+    .starlight(2000)
+    .craftTime(200)
     .register()

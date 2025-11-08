@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"e827540a"
+	],
+	tasks: [{
+		uid: "e43e2e6e",
+		type: "checkmark",
+		title: "Draconic Evolution",
+		icon: "draconicevolution:fusion_crafting_core"
+	}]
+}

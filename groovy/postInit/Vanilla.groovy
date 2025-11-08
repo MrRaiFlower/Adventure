@@ -52,6 +52,16 @@ crafting.removeByOutput(item('minecraft:piston'))
 
 crafting.addShaped(item('minecraft:piston'), [
     [ore('plankWood'), ore('plankWood'), ore('plankWood')],
-    [ore('dustRedstone'), ore('stickIron'), ore('dustRedstone')],
-    [ore('cobblestone'), ore('plateIron'), ore('cobblestone')]
+    [ore('dustRedstone'), ore('stickSteel'), ore('dustRedstone')],
+    [ore('cobblestone'), ore('plateSteel'), ore('cobblestone')]
+])
+
+// Enchantment Table
+
+crafting.removeByOutput(item('minecraft:enchanting_table'))
+
+crafting.addShaped(item('minecraft:enchanting_table'), [
+    [null, item('minecraft:book'), null],
+    [ore('manaDiamond'), ore('obsidian'), ore('manaDiamond')],
+    [ore('obsidian'), ore('obsidian'), ore('obsidian')]
 ])
