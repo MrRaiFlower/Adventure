@@ -1,0 +1,17 @@
+filename = 'ironfurnaces-1.3.5.jar'
+name = 'Iron Furnaces'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Iron Furnaces 1.3.5'
+
+[download]
+hash = '3b18df8670bafed554025749b4f75dafcaeba517'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2738266
+project-id = 237664

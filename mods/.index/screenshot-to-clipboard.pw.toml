@@ -1,0 +1,17 @@
+filename = 'ScreenshotToClipboard-1.12.2-1.0.1.jar'
+name = 'Screenshot to Clipboard (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.10.2', '1.11', '1.11.1', '1.11.2', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.12.2-1.0.1 (Forge 1.10.2 to 1.12.2)'
+
+[download]
+hash = 'c570acf1e0e899446e984622e85b3a79dfefdb56'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2739435
+project-id = 326950

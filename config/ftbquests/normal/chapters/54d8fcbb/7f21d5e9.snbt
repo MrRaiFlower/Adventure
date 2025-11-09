@@ -1,0 +1,10 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "ecaa16bc",
+		type: "checkmark",
+		title: "Industrial Foregoing",
+		icon: "teslacorelib:machine_case"
+	}]
+}

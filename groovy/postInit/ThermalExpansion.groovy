@@ -70,7 +70,7 @@ crafting.removeByOutput(item('thermalexpansion:frame', 64))
 
 crafting.addShaped(item('thermalexpansion:frame', 64), [
     [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')],
-    [item('bloodmagic:slate'), ore('gearSteel'), item('bloodmagic:slate')],
+    [ore('ingotIron'), ore('gearSteel'), ore('ingotIron')],
     [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')]
 ])
 

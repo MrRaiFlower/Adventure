@@ -1,0 +1,17 @@
+filename = 'BetterThanMending-1.1.2.jar'
+name = 'Better Than Mending'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC 1.12 - BetterThanMending 1.1.2'
+
+[download]
+hash = '85dba4173aa2913b02d8f9a71c6ac0d97938b1ff'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2711958
+project-id = 264738

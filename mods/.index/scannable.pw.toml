@@ -1,17 +1,17 @@
-filename = 'IronJetpacks-1.12-2-1.1.0.jar'
-name = 'Iron Jetpacks'
+filename = 'Scannable-MC1.12.2-1.6.3.26.jar'
+name = 'Scannable'
 side = 'both'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'IronJetpacks-1.12.2-1.1.0.jar'
+x-prismlauncher-version-number = 'Scannable-MC1.12.2-1.6.3.26.jar'
 
 [download]
-hash = '0cd6350d3b42166ce941f78d8a8a58f687a1c1cd'
+hash = 'b949f46eef7fe63e42e4d5a618f1e26e66a1af5c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2653408
-project-id = 284497
+file-id = 3146549
+project-id = 266784
