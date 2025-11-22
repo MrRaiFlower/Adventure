@@ -1,59 +1,67 @@
-// Redstone Servo
-
-crafting.removeByOutput(item('thermalfoundation:material', 512))
-
-crafting.addShaped(item('thermalfoundation:material', 512), [
-    [ore('ingotIron'), ore('dustRedstone'), ore('ingotIron')],
-    [ore('ingotCopper'), ore('stickIron'), ore('ingotCopper')],
-    [ore('ingotIron'), ore('dustRedstone'), ore('ingotIron')]
-])
-
-// Reception Coil
+// Coils
 
 crafting.removeByOutput(item('thermalfoundation:material', 513))
 
 crafting.addShaped(item('thermalfoundation:material', 513), [
     [null, ore('dustRedstone'), ore('ingotGold')],
-    [ore('dustRedstone'), ore('stickIron'), ore('dustRedstone')],
+    [ore('dustRedstone'), ore('ingotManasteel'), ore('dustRedstone')],
     [ore('ingotGold'), ore('dustRedstone'), null]
 ])
-
-// Transmission Coil
 
 crafting.removeByOutput(item('thermalfoundation:material', 514))
 
 crafting.addShaped(item('thermalfoundation:material', 514), [
     [null, ore('dustRedstone'), ore('ingotSilver')],
-    [ore('dustRedstone'), ore('stickIron'), ore('dustRedstone')],
+    [ore('dustRedstone'), ore('ingotManasteel'), ore('dustRedstone')],
     [ore('ingotSilver'), ore('dustRedstone'), null]
 ])
-
-// Conductance Coil
 
 crafting.removeByOutput(item('thermalfoundation:material', 515))
 
 crafting.addShaped(item('thermalfoundation:material', 515), [
     [null, ore('dustRedstone'), ore('ingotElectrum')],
-    [ore('dustRedstone'), ore('stickIron'), ore('dustRedstone')],
+    [ore('dustRedstone'), ore('ingotManasteel'), ore('dustRedstone')],
     [ore('ingotElectrum'), ore('dustRedstone'), null]
 ])
 
-// Satchel
+// Redstone Servo
 
-crafting.remove("thermalexpansion:satchel")
+crafting.removeByOutput(item('thermalfoundation:material', 512))
 
-crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte) 1]), [
-    [null, item('adventure:leather_tanned'), null],
-    [ore('ingotTin'), ore('blockWool'), ore('ingotTin')],
-    [item('adventure:leather_tanned'), null, item('adventure:leather_tanned')]
+crafting.addShaped(item('thermalfoundation:material', 512), [
+    [ore('dustRedstone'), ore('ingotManasteel'), ore('dustRedstone')],
+    [ore('ingotCopper'), ore('ingotIron'), ore('ingotCopper')],
+    [ore('dustRedstone'), ore('ingotManasteel'), ore('dustRedstone')]
 ])
 
-crafting.remove("thermalexpansion:satchel_1")
+// Tool Casing
 
-crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte) 1]), [
-    [null, ore('blockRockwool'), null],
-    [ore('ingotTin'), ore('blockWool'), ore('ingotTin')],
-    [ore('blockRockwool'), null, ore('blockRockwool')]
+crafting.removeByOutput(item('thermalfoundation:material', 640))
+
+crafting.addShaped(item('thermalfoundation:material', 640), [
+    [ore('ingotSteel'), item('thermalfoundation:material', 515), ore('ingotSteel')],
+    [ore('plateElectrum'), item('thermalexpansion:cell'), ore('plateElectrum')],
+    [ore('ingotSteel'), item('thermalfoundation:material', 515), ore('ingotSteel')]
+])
+
+// Drill Head
+
+crafting.removeByOutput(item('thermalfoundation:material', 656))
+
+crafting.addShaped(item('thermalfoundation:material', 656), [
+    [null, ore('ingotSteel'), null],
+    [ore('ingotSteel'), ore('manaDiamond'), ore('ingotSteel')],
+    [ore('ingotManasteel'), ore('ingotSteel'), ore('ingotManasteel')]
+])
+
+// Saw Blade
+
+crafting.removeByOutput(item('thermalfoundation:material', 657))
+
+crafting.addShaped(item('thermalfoundation:material', 657), [
+    [ore('ingotManasteel'), ore('ingotSteel'), null],
+    [ore('ingotSteel'), ore('manaDiamond'), ore('ingotSteel')],
+    [null, ore('ingotSteel'), ore('ingotManasteel')]
 ])
 
 // Frames
@@ -61,23 +69,23 @@ crafting.addShaped(item('thermalexpansion:satchel').withNbt(['Accessible': (byte
 crafting.removeByOutput(item('thermalexpansion:frame'))
 
 crafting.addShaped(item('thermalexpansion:frame'), [
-    [ore('plateSteel'), ore('gearTin'), ore('plateSteel')],
-    [item('bloodmagic:slate'), ore('manaDiamond'), item('bloodmagic:slate')],
-    [ore('plateSteel'), ore('gearTin'), ore('plateSteel')]
+    [ore('plateSteel'), item('bloodmagic:blood_shard'), ore('plateSteel')],
+    [item('bloodmagic:blood_shard'), ore('gearTin'), item('bloodmagic:blood_shard')],
+    [ore('plateSteel'), item('bloodmagic:blood_shard'), ore('plateSteel')]
 ])
 
 crafting.removeByOutput(item('thermalexpansion:frame', 64))
 
 crafting.addShaped(item('thermalexpansion:frame', 64), [
-    [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')],
-    [ore('ingotIron'), ore('gearSteel'), ore('ingotIron')],
-    [ore('ingotManasteel'), ore('gearCopper'), ore('ingotManasteel')]
+    [ore('plateTin'), item('botania:managlass'), ore('plateTin')],
+    [item('botania:managlass'), ore('gearCopper'), item('botania:managlass')],
+    [ore('plateTin'), item('botania:managlass'), ore('plateTin')]
 ])
 
 crafting.removeByOutput(item('thermalexpansion:frame', 128))
 
 crafting.addShaped(item('thermalexpansion:frame', 128), [
-    [ore('plateLead'), ore('ingotManasteel'), ore('plateLead')],
-    [item('bloodmagic:slate'), ore('gearElectrum'), item('bloodmagic:slate')],
-    [ore('plateLead'), ore('ingotManasteel'), ore('plateLead')]
+    [ore('plateLead'), item('bloodmagic:item_demon_crystal'), ore('plateLead')],
+    [item('bloodmagic:item_demon_crystal'), ore('blockRedstone'), item('bloodmagic:item_demon_crystal')],
+    [ore('plateLead'), item('bloodmagic:item_demon_crystal'), ore('plateLead')]
 ])

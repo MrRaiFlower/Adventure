@@ -3,9 +3,9 @@
 crafting.removeByOutput(item('thaumcraft:salis_mundus'))
 
 crafting.addShaped(item('thaumcraft:salis_mundus') * 3, [
-    [ item('thaumcraft:crystal_essence'), ore('elvenPixieDust'),  item('thaumcraft:crystal_essence')],
+    [ item('thaumcraft:crystal_essence'), item('bloodmagic:blood_shard'),  item('thaumcraft:crystal_essence')],
     [ore('dustAstralStarmetal'), ore('pestleAndMortar'), ore('dustAstralStarmetal')],
-    [ item('thaumcraft:crystal_essence'), ore('elvenPixieDust'),  item('thaumcraft:crystal_essence')]
+    [ item('thaumcraft:crystal_essence'), item('bloodmagic:blood_shard'),  item('thaumcraft:crystal_essence')]
 ])
 
 // Arcane Stone
